@@ -117,7 +117,7 @@ input:focus{
 /* main */
 .main{
     width:63%;
-    height:670px;
+    height:660px;
     font:10px 'weiruanyahei';
     color:#b0b0b0;
 }
@@ -193,28 +193,29 @@ td{
     background-color: #f5f5f5;
 }
 .footer ul {
-    width:60%;
-    height:90px;
+    width:63%;
+    height:75px;
 }
 .footer li{
     display:inline-block;
-    width:24.38%;
-    height:90px;
+    width:24.3%;
+    position:relative;
+    left:20px;
 }
 .text{
     float:right;
     position:relative;
     height:45px;
     width:65%;
-    top:-5px;
-    left:-5px;
+    top:-15px;
+    left:-15px;
     border-right:1px solid   #e0e0e0;
 }
 #last{
     border-right:none;
 }
 .footer p{
-    font:16px 'weiruanyahei';
+    font:500 13px 'weiruanyahei' ;
 }
 .footer span{
     dispaly:block;
@@ -225,8 +226,8 @@ td{
     position:relative;
     height:30px;
     width:30px;
-    top:30px;
-    left:-70px;
+    top:20px;
+    left:-75px;
 } 
 /* copyright */
 .copyright{
