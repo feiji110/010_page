@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        *{
+            margin:0 ;
+            padding:0;
+        }
+        a{
+            text-decoration: none;
+            color:#000;
+        }
+        #header{
+            width:100%;
+            background-color: #333;
+            color:white;
+            height:36px;
+        }
+        #header img{
+            float: left;
+        }
+        #header a{
+            color:white;
+        }
+        #header>div{
+          position: absolute;
+          right:10%;
+          padding-top:5px;
+        }
+        #nav{
+            width:100%;
+            height:70px;
+            background-color: white;
+        }
+        #nav img{
+            display:block;
+            float:left;
+            margin-left:10%;
+            margin-top:10px;
+        }
+        #menu{
+            margin-left:570px;
+        }
+        .column{
+            display:inline-block;
+            height:70px;
+            width:80px;
+            line-height:70px;
+            text-align:center;
+        }
+        .column:hover{
+            border-bottom:5px solid #e8420a;
+        }
+        #content{
+            width:100%;
+            height:540px;
+            background-color: #f5f5f5;
+        }
+        #subnav{
+            padding:20px 10%; 
+        }
+        #main{
+            margin-left:10%;
+            width:80%;
+            height:430px;
+            background-color: white;
+        }
+        #main-left{
+            width:50%;
+            padding: 10px;
+            float:left;
+        }
+        #main-right{
+            width:50%
+            padding:10px;
+            line-height:30px;
+        }
+        h2{
+            padding:40px;
+        }
+        #slidebar{
+            position:fixed;
+            margin-left:1235px;
+            top:105px;
+            
+        }
+        .sidebar{
+            display: block;
+            border-bottom:2px solid white;
+            background:#1c5080;
+            width:36px;
+            height:36px;
+            padding-left:8px ;
+            padding-top:8px ;
+        }
+        #sidetext{
+            background-color:#e8420a;
+            padding:0 auto;
+            color:white;
+            width:20px;
+            text-align: center;
+            border:12px solid#e8420a;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header" >
+        <div>
+        <img src="image/phone.png" alt="icon"/>
+        &nbsp; 400-808-8682&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" target="_self" >请登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#" target="_self" >注册</a>
+        </div>
+    </div>
+    <div id="nav">
+        <img src="image/logo.png"alt="logo"/>
+        <div id="menu">
+        <div class="column">首页</div>
+        <div class="column">目的地</div>
+        <div class="column">亲子游学</div>
+        <div class="column">酒店预订</div>
+        <div class="column">车辆接送</div>
+        <div class="column">签证代办</div>
+        <div class="column">精彩瞬间</div>
+        </div>
+    </div>
+    <div id ="content">
+        <div id="subnav">
+            首页&gt;酒店预定&gt;曼谷悦榕庄酒店（酒店名称）
+        </div>
+        <div id="main">
+        <div id="main-left">
+        <img src="image/big.jpg"height="320" width="495" / >
+        <img src="image/s1.jpg" width="120"/>
+        <img src="image/s2.jpg" width="120"/>
+        <img src="image/s3.jpg" width="120"/>
+        <img src="image/s4.jpg" width="120"/>
+        </div>
+        <div id="main-right">
+        <h2>曼谷悦榕庄酒店（酒店名称）</h3>
+        <p>所属集团：悦榕酒店及度假村集团/Banyan&nbsp;Tree</p>
+        <p>Hotels&nbsp;&nbsp;&&nbsp;&nbsp;Resorts</p>
+        <p>所属品牌：悦榕庄/Banyan&nbsp;&nbsp;Tree</p>
+        <p>特色设施及服务:&nbsp;&nbsp;Banyan&nbsp;Tree&nbsp;Bangkok酒店的
+        <br/>健身俱乐部提供设备齐全的健身中心、整齐浴室</p>
+        <p>和桑拿浴室。</p>
+        <p>其他特色介绍小文案......</p>
+        <p>其他特色介绍小文案......</p>
+        </div>
+        </div>
+    </div>
+    <div id="slidebar">
+        <div class="sidebar"><img src="image/qq.png" width:20;height:16;></img></div>
+        <div class="sidebar"><img src="image/phone.png"width:20;height:16;></img></div>
+        <div class="sidebar"><img src="image/wx.png"width:20;height:16;></img></div>
+        <div class="sidebar"><img src="image/wb.png" width:20;height:16;></img></div>
+        <div class="sidebar"><img src="image/img.png"width:20;height:16;></img></div>
+        
+        <div id="sidetext" align="center">
+                <img src="image/img2.png"/>
+                尊享定制
+        </div>        
+    </div>
+</body>
+</html>
