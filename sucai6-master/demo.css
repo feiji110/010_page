@@ -1,0 +1,95 @@
+/* 滚动通知区域 */
+#roll{
+	height: 20px;
+	background-color: #ccc;
+	position: relative;
+	top: 90px;
+}
+#roll img{
+    margin-left: 150px;
+}
+#slide{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	height: 20px;
+	width: 1000px;
+    overflow: hidden;
+}
+p{
+    width: 340px;
+	color: red;
+	font-size: 13px;
+	position: absolute;
+	left: 800px;
+}
+
+/* 轮播区域 */
+*{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    list-style: none;
+}
+.box{
+    width:1200px;
+    height:383px;
+    border:1px solid red;
+    margin:100px auto;
+    position:relative;
+    overflow:hidden; 
+}
+.slider{
+    width: 8400px;
+    position:absolute;
+    left:-1200px;
+}
+.slide{
+    width:1200px;
+    overflow:hidden;
+    float:left;
+} 
+.box>span{
+    display:block;
+    width:30px;
+    height:50px;
+    text-align:center;
+    cursor:pointer;
+    color: #fff;
+    top:175px;
+    line-height:50px;
+    background:red;
+    font-size:30px;
+    position:absolute;
+    opacity:0;
+}
+#left{
+    left:30px;
+}
+#right{
+    right:30px;
+}
+.nav{
+    position:absolute;
+    left:500px;
+    bottom:20px;
+}
+ul>li{
+	float: left;
+	width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background: #ccc;
+    border-radius: 50%;
+    text-align: center;
+	cursor: pointer;
+}
+.nav .active{
+	color: white;
+	background: red;
+}
+.first{
+	color: red;
+	background: #ccc;
+}
