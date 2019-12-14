@@ -1,3 +1,11 @@
+/* 删除默认样式 */
+*{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    list-style: none;
+}
 /* 滚动通知区域 */
 #roll{
 	height: 20px;
@@ -25,13 +33,6 @@ p{
 }
 
 /* 轮播区域 */
-*{
-    padding:0;
-    margin:0;
-}
-ul,li{
-    list-style: none;
-}
 .box{
     width:1200px;
     height:383px;
